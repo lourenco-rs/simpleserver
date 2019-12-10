@@ -9,4 +9,4 @@ app.get("/", function(req, res) {
 
 http
   .createServer(app)
-  .listen(3000, () => console.log("Servidor rodando local na porta 3000"));
+  .listen(3333, () => console.log("Servidor rodando local na porta 3000"));
